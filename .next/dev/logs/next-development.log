@@ -1,27 +1,56 @@
-[00:00:02.408] Server  LOG     
-[00:00:02.408] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:02.408] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:02.408] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:02.408] Server  LOG     
-[00:00:02.408] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:02.408] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:02.408] Server  LOG     
-[00:00:02.504] Server  LOG      ✓ Ready in 2.3s
-[00:00:10.972] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.208] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:11.208] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:11.208] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765167296327}
-[00:00:11.377] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.484] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:11.484] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:11.484] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765167296605}
-[00:00:11.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.889] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:11.889] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:11.889] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765167297010}
-[00:00:17.097] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/articles color: rgb(120, 120, 120) color: inherit {"dp":"/articles","o":"http://localhost:3000/articles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765167302216}
-[00:00:23.590] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765167308710}
-[00:00:24.050] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/articles color: rgb(120, 120, 120) color: inherit {"dp":"/articles","o":"http://localhost:3000/articles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765167309169}
-[00:00:24.913] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765167310033}
+[00:00:00.647] Server  LOG      ✓ Ready in 446ms
+[00:00:02.940] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.052] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:03.052] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:00:03.052] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765253816851}
+[00:01:11.590] Server  LOG      ✓ Compiled in 23ms
+[00:01:17.479] Server  LOG      ✓ Compiled in 164ms
+[00:01:33.064] Browser ERROR   ReactDOM.useFormState has been renamed to React.useActionState. Please update %s to use React.useActionState. LoginPage
+[00:01:33.064] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765253906864}
+[00:01:48.596] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765253922395}
+[00:21:30.587] Server  LOG      ✓ Compiled in 79ms
+[00:21:32.187] Server  ERROR    ⨯ TypeError: stats.map is not a function
+[00:21:32.301] Browser ERROR   uncaughtError: TypeError: stats.map is not a function
+[00:21:33.133] Server  LOG      ✓ Compiled in 27ms
+[00:21:33.965] Server  ERROR    ⨯ TypeError: stats.map is not a function
+[00:21:34.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:34.170] Browser ERROR   uncaughtError: TypeError: stats.map is not a function
+[00:21:37.415] Server  LOG      ✓ Compiled in 22ms
+[00:21:38.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:38.277] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:21:38.277] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:21:38.277] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765255112067}
+[00:21:45.090] Server  LOG      ✓ Compiled in 30ms
+[00:21:50.838] Server  LOG      ✓ Compiled in 51ms
+[00:22:05.084] Server  LOG      ✓ Compiled in 45ms
+[00:24:04.930] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765255258728}
+[00:24:09.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765255263247}
+[00:24:13.103] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/articles color: rgb(120, 120, 120) color: inherit {"dp":"/articles","o":"http://localhost:3000/articles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765255266901}
+[01:47:07.025] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765260240889}
+[01:47:08.264] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765260242129}
+[01:47:10.190] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/articles color: rgb(120, 120, 120) color: inherit {"dp":"/articles","o":"http://localhost:3000/articles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765260244055}
+[01:47:12.994] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765260246858}
+[01:47:18.544] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/articles color: rgb(120, 120, 120) color: inherit {"dp":"/articles","o":"http://localhost:3000/articles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765260252408}
+[03:38:50.539] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765266944388}
+[03:38:53.710] Browser ERROR   ReactDOM.useFormState has been renamed to React.useActionState. Please update %s to use React.useActionState. ArticleForm
+[03:38:53.710] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/articles/new color: rgb(120, 120, 120) color: inherit {"dp":"/admin/articles/new","o":"http://localhost:3000/admin/articles/new","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765266947550}
+[03:39:07.200] Server  ERROR    ⨯ TypeError: formData.get is not a function
+[03:39:07.309] Browser ERROR   uncaughtError: TypeError: formData.get is not a function
+[03:40:49.719] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:40:49.739] Server  LOG      ✓ Compiled in 118ms
+[03:40:50.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:40:50.717] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:40:50.717] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/articles/new","route":"/admin/articles/new"}
+[03:40:50.717] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/articles/new color: rgb(120, 120, 120) color: inherit {"dp":"/admin/articles/new","o":"http://localhost:3000/admin/articles/new","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765267064565}
+[03:41:11.067] Server  LOG      ✓ Compiled in 25ms
+[03:41:42.788] Server  ERROR    ⨯ TypeError: formData.get is not a function
+[03:41:42.897] Browser ERROR   uncaughtError: TypeError: formData.get is not a function
+[03:42:40.040] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:42:40.070] Server  LOG      ✓ Compiled in 29ms
+[03:42:40.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/articles/new color: rgb(120, 120, 120) color: inherit {"dp":"/admin/articles/new","o":"http://localhost:3000/admin/articles/new","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765267173996}
+[03:42:40.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:42:40.934] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:42:40.934] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/articles/new","route":"/admin/articles/new"}
+[03:42:40.934] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/articles/new color: rgb(120, 120, 120) color: inherit {"dp":"/admin/articles/new","o":"http://localhost:3000/admin/articles/new","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765267174783}
+[03:47:48.990] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765267482839}
+[03:47:54.746] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765267488596}

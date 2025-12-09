@@ -1,5 +1,66 @@
 {
-  "node": {},
+  "node": {
+    "0085e41218de7b9b2e0e3835a5de9bab5c7ebe4789": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "signOut",
+          "filename": "app/login/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "action-browser"
+      },
+      "filename": "app/login/actions.ts",
+      "exportedName": "signOut"
+    },
+    "604d9753435e7ff607e70bb2ca82f8cf1764a533ea": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "[project]/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "signIn",
+          "filename": "app/login/actions.ts"
+        }
+      },
+      "layer": {
+        "app/login/page": "action-browser"
+      },
+      "filename": "app/login/actions.ts",
+      "exportedName": "signIn"
+    },
+    "60d83d351b947676b81928df8a3f1d1cd486b4dc0a": {
+      "workers": {
+        "app/admin/articles/new/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/articles/new/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/admin/articles/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createArticle",
+          "filename": "app/admin/articles/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/articles/new/page": "action-browser"
+      },
+      "filename": "app/admin/articles/actions.ts",
+      "exportedName": "createArticle"
+    },
+    "70055010a4a2d25bdd27a3ef991373bb3ef1893330": {
+      "workers": {
+        "app/admin/articles/new/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/articles/new/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/admin/articles/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateArticle",
+          "filename": "app/admin/articles/actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/articles/new/page": "action-browser"
+      },
+      "filename": "app/admin/articles/actions.ts",
+      "exportedName": "updateArticle"
+    }
+  },
   "edge": {},
   "encryptionKey": "2GPUzbz8x5OtmP8WWT7Mlvog69NtsILGi8WQ9AfGiWQ="
 }
