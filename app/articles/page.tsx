@@ -4,6 +4,7 @@ import { createSupabaseServer } from "@/lib/supabase/server"
 import { Article } from "@/lib/types/article"
 import { format } from "date-fns"
 import { ko } from "date-fns/locale"
+import { AdBanner } from "@/components/ad-banner"
 
 async function getPublishedArticles() {
   const supabase = await createSupabaseServer()
@@ -50,6 +51,9 @@ export default async function ArticlesPage() {
             개발에 대한 깊이 있는 글들을 만나보세요. 실무 경험과 연구를 바탕으로 작성된 아티클입니다.
           </p>
         </div>
+
+        {/* AdSense - 모든 아티클 상단 */}
+        <AdBanner />
 
         {/* Categories */}
         <div className="flex flex-wrap gap-2 mb-12">

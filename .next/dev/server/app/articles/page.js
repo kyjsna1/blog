@@ -4,7 +4,7 @@ R.c("server/chunks/ssr/node_modules_@supabase_realtime-js_dist_module_89340b4a._
 R.c("server/chunks/ssr/node_modules_@supabase_storage-js_dist_module_818133d4._.js")
 R.c("server/chunks/ssr/node_modules_@supabase_auth-js_dist_module_1739ff8d._.js")
 R.c("server/chunks/ssr/node_modules_0fd2c5cc._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__48924c02._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c7756f6d._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_3b4d20e1._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_ece394eb.js")
