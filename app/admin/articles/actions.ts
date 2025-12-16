@@ -13,6 +13,10 @@ export async function createArticle(
   _prevState: ActionState | undefined,
   formData: FormData
 ): Promise<ActionState | void> {
+  if (!(formData instanceof FormData)) {
+    return { error: "잘못된 요청입니다. 다시 시도해주세요." }
+  }
+
   const supabase = await createSupabaseServer()
   const { data: userData } = await supabase.auth.getUser()
 
@@ -55,6 +59,10 @@ export async function updateArticle(
   _prevState: ActionState | undefined,
   formData: FormData
 ): Promise<ActionState | void> {
+  if (!(formData instanceof FormData)) {
+    return { error: "잘못된 요청입니다. 다시 시도해주세요." }
+  }
+
   const supabase = await createSupabaseServer()
   const { data: userData } = await supabase.auth.getUser()
 

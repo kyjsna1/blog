@@ -64,6 +64,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 async function createArticle(_prevState, formData) {
+    if (!(formData instanceof FormData)) {
+        return {
+            error: "잘못된 요청입니다. 다시 시도해주세요."
+        };
+    }
     const supabase = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$supabase$2f$server$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["createSupabaseServer"])();
     const { data: userData } = await supabase.auth.getUser();
     if (!userData.user) {
@@ -95,6 +100,11 @@ async function createArticle(_prevState, formData) {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["redirect"])("/admin");
 }
 async function updateArticle(id, _prevState, formData) {
+    if (!(formData instanceof FormData)) {
+        return {
+            error: "잘못된 요청입니다. 다시 시도해주세요."
+        };
+    }
     const supabase = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$supabase$2f$server$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["createSupabaseServer"])();
     const { data: userData } = await supabase.auth.getUser();
     if (!userData.user) {

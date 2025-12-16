@@ -1,9 +1,24 @@
 {
   "node": {
+    "40cc5e4ab66e7fb86b92fa2d709f7229826571b794": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "[project]/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/login/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "default",
+          "filename": "app/login/page.tsx"
+        }
+      },
+      "layer": {
+        "app/login/page": "rsc"
+      },
+      "exportedName": "default",
+      "filename": "app/login/page.tsx"
+    },
     "604d9753435e7ff607e70bb2ca82f8cf1764a533ea": {
       "workers": {
         "app/login/page": {
-          "moduleId": "[project]/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "moduleId": "[project]/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/login/page.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "signIn",
           "filename": "app/login/actions.ts"
