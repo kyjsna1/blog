@@ -15,8 +15,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 const ADS_CLIENT = "ca-pub-2057297855731557";
-const ADS_SLOT = "8077757331";
-function AdBanner() {
+function AdBanner({ slotId, className }) {
     _s();
     const insRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const [scriptLoaded, setScriptLoaded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -25,7 +24,6 @@ function AdBanner() {
             if (!scriptLoaded) return;
             const ins = insRef.current;
             if (!ins) return;
-            // 이미 초기화된 ins는 건너뜀
             const alreadyFilled = ins.getAttribute("data-adsbygoogle-status") === "done";
             if (alreadyFilled) return;
             try {
@@ -50,11 +48,11 @@ function AdBanner() {
                 onLoad: ()=>setScriptLoaded(true)
             }, void 0, false, {
                 fileName: "[project]/components/ad-banner.tsx",
-                lineNumber: 32,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-8",
+                className: className,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ins", {
                     ref: insRef,
                     className: "adsbygoogle",
@@ -62,17 +60,17 @@ function AdBanner() {
                         display: "block"
                     },
                     "data-ad-client": ADS_CLIENT,
-                    "data-ad-slot": ADS_SLOT,
+                    "data-ad-slot": slotId,
                     "data-ad-format": "auto",
                     "data-full-width-responsive": "true"
                 }, void 0, false, {
                     fileName: "[project]/components/ad-banner.tsx",
-                    lineNumber: 41,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ad-banner.tsx",
-                lineNumber: 40,
+                lineNumber: 43,
                 columnNumber: 7
             }, this)
         ]

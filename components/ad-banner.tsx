@@ -4,9 +4,13 @@ import { useEffect, useRef, useState } from "react"
 import Script from "next/script"
 
 const ADS_CLIENT = "ca-pub-2057297855731557"
-const ADS_SLOT = "8077757331"
 
-export function AdBanner() {
+interface AdBannerProps {
+  slotId: string
+  className?: string
+}
+
+export function AdBanner({ slotId, className }: AdBannerProps) {
   const insRef = useRef<HTMLModElement>(null)
   const [scriptLoaded, setScriptLoaded] = useState(false)
 
@@ -15,7 +19,6 @@ export function AdBanner() {
     const ins = insRef.current
     if (!ins) return
 
-    // 이미 초기화된 ins는 건너뜀
     const alreadyFilled = ins.getAttribute("data-adsbygoogle-status") === "done"
     if (alreadyFilled) return
 
@@ -37,13 +40,13 @@ export function AdBanner() {
         strategy="afterInteractive"
         onLoad={() => setScriptLoaded(true)}
       />
-      <div className="mb-8">
+      <div className={className}>
         <ins
           ref={insRef}
           className="adsbygoogle"
           style={{ display: "block" }}
           data-ad-client={ADS_CLIENT}
-          data-ad-slot={ADS_SLOT}
+          data-ad-slot={slotId}
           data-ad-format="auto"
           data-full-width-responsive="true"
         />

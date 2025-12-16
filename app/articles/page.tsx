@@ -53,7 +53,7 @@ export default async function ArticlesPage() {
         </div>
 
         {/* AdSense - 모든 아티클 상단 */}
-        <AdBanner />
+        <AdBanner slotId="8077757331" className="mb-8" />
 
         {/* Categories */}
         <div className="flex flex-wrap gap-2 mb-12">
